@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<script src="/js/Chart.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<style>
+    #myContainer {
+        width: 400px;
+        height: 400px;
+        position: relative;
+        background: yellow;
+    }
+
+    #myAnimation {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        background-color: red;
+        bottom: 0;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+</style>
+
+<body>
+
+    <p>
+        <button onclick="myMove()">Click Me</button>
+    </p>
+
+    <div id="myContainer">
+        <div id="myAnimation"></div>
+    </div>
+    <canvas id="myChart" width="800" height="400"></canvas>
+    <script>
+        var id = null;
+        function myMove() {
+            var elem = document.getElementById("myAnimation");
+            var pos = 0;
+            clearInterval(id);
+            id = setInterval(frame, 10);
+            function frame() {
+                if (pos == 350) {
+                    clearInterval(id);
+                } else {
+                    pos++;
+                    elem.style.bottom = pos + 'px';
+                    elem.style.left = pos + 'px';
+                }
+            }
+        }
+    </script>
+    <script>
+        // line chart data
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var chart = new Chart(ctx, {
+            // The type of chart we want to create
+            type: 'line',
+
+            // The data for our dataset
+            data: {
+                labels: ['0', '20', '40'],
+                datasets: [{
+                    label: '',
+
+                    borderColor: 'rgb(22, 163, 74)',
+                    data: [0, 20, 40]
+                }]
+            },
+
+            // Configuration options go here
+            options: {}
+        });
+    </script>
+</body>
+
+</html>
