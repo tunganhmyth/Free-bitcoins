@@ -92,6 +92,12 @@
 .w-33-98-pt {
     width: 33.98437505%;
 }
+.w-15-039 {
+    width: 15.0390625%;
+}
+.w-84-96 {
+    width: 84.9609375%;
+}
 .m-ct {
     margin-left: auto;
     margin-right: auto;
@@ -103,6 +109,9 @@
 }
 .fz-46 {
     font-size: 46px;
+}
+.fz-48 {
+    font-size: 48px;
 }
 .fz-50 {
     font-size: 50px;
@@ -134,6 +143,9 @@
 .bg_676CDB {
     border-color: #676cdb;
 }
+.bg_16A34A {
+    background-color: #16a34a;
+}
 .bgc_676CDB {
     border-color: #676cdb;
 }
@@ -164,8 +176,14 @@
 .bg_EAB308 {
     background-color: #eab308;
 }
+.cl-EAB308 {
+    color: #eab308;
+}
 .cl_22C55E {
     color: #22c55e;
+}
+.mr-left-30px {
+    margin-left: 30px;
 }
 .overlay {
     position: absolute;
