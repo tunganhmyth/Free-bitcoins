@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="../tailwind/custom.css">
     <script src="/js/Chart.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
 </head>
 
 <body class="h-screen g-b bg-black">
@@ -85,8 +87,7 @@
                         <li class="mx-4"><a href="#">Segwit</a></li>
                     </div>
                     <div>
-                        <p class="rounded-lg bg_37415 py-4">1KDCkBvuPcmyLWhPmyhb72tyVkHp58DEFq</p>
-
+                        <div class="flex rounded-lg bg_374151 ml-4 mt-2 py-2 w-4/5"><span class="pl-2 w-11/12 overflow-x-hidden">1KDCkBvuPcmyLWhPmyhb72tyVkHp58DEF</span><span class="w-1/12"><img class="object-cover" src="/images/document-duplicate.png" alt=""></span> </div>
                     </div>
                 </div>
                 <div class="w-2/12">
@@ -94,7 +95,334 @@
                 </div>
             </div>
         </div>
+        <div class="w-4/5 m-ct text-white py-12">
+            <h3 class="fz-48 semibold">Withdraw</h3>
+            <div class="flex">
+                <div class="w-2/4 regular fz-16">
+                    <p class="my-12">For security purposes, any large or suspicious withdrawal amounts will be audited and manually processed. The manual audit process typically takes between 1-6 hours, and in certain circumstances, might take longer in certain circumstances. As always we appreciate your patience!</p>
+                    <div>Withdraw Currency</div>
+                    <div class="rounded-lg bg-1f2937 py-2 my-6 pl-4">0.0000121</div>
+                    <div>Withdraw Email</div>
+                    <div class="rounded-lg bg-1f2937 py-2 my-6 pl-4">erenyeager_luv_mikasa@gmail.com</div>
+                    <div>Withdraw Amount</div>
+                    <div class="rounded-lg bg-1f2937 py-4 pl-4 my-6">0.0000121 </div>
+                    <div class="rounded-lg bg_3B82F6 py-4 text-center">Confirm</div>
+                </div>
+                <div class="w-2/4">
+                    <div class="bg_374151 rounded-lg w-11/12 float-right h-96"></div>
+                </div>
+            </div>
+        </div>
     </section>
+    <section class="bg-1f2937 text-white">
+        <div class="w-4/5 m-ct">
+            <h3 class="fz-48 semibold">Transaction </h3>
+            <div>
+                <ul class="flex">
+                    <li class="mr-6 text-4xl tablinks" onclick="openCity(event, 'button_1')" id="defaultOpen"><a href="#">Deposit</a></li>
+                    <li class="mx-6 text-4xl tablinks" onclick="openCity(event, 'button_2')"><a href="#">From Altcoin</a></li>
+                    <li class="mx-6 text-4xl tablinks" onclick="openCity(event, 'button_3')"><a href="#">Withdraw</a>
+                    </li>
+                    <li class="mx-6 text-4xl tablinks" onclick="openCity(event, 'button_4')"><a href="#">Bill</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- deposit -->
+            <div id="button_1" class="tabcontent py-12">
+                <div class="flex">
+                    <div class="flex bg_374151 rounded-lg py-2 px-2"><img class="px-2" src="/images/credit-card.png" alt=""><span class="px-2">0.0000121</span>BTC</div>
+                    <div class="flex bg_374151 rounded-lg py-2 px-2 mx-6"><span class="px-2">20</span><img class="px-2" src="/images/chevron-right.png" alt=""> </div>
+                    <div class="flex bg_374151 rounded-lg py-2 px-2">Total <span class="px-2">0</span><img src="/images/chevron-left.png" alt=""><span class="px-4">1</span><img src="/images/chevron-right.png" alt=""> </div>
+                </div>
+                <table class="text-white w-full my-12 fz-20 ">
+                    <tr class="text-left fz-26 medium">
+                        <th class="w-16-9-pt">Time</th>
+                        <th class="w-33-9-pt">Amount</th>
+                        <th class="w-33-9-pt">State</th>
+                        <th class="w-16-9-pt pl-28">Transactions</th>
+                    </tr>
+                    <tr class="regular">
+                        <td>14:15:20</td>
+                        <td>2.00000000</td>
+                        <td>2.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>14:15:20</td>
+                        <td>2.00000000</td>
+                        <td>2.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>14:15:20</td>
+                        <td>2.00000000</td>
+                        <td>2.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>14:15:20</td>
+                        <td>2.00000000</td>
+                        <td>2.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>14:15:20</td>
+                        <td>2.00000000</td>
+                        <td>2.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>14:15:20</td>
+                        <td>2.00000000</td>
+                        <td>2.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>14:15:20</td>
+                        <td>2.00000000</td>
+                        <td>2.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>14:15:20</td>
+                        <td>2.00000000</td>
+                        <td>2.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>14:15:20</td>
+                        <td>2.00000000</td>
+                        <td>2.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- end-deposit -->
+            <!-- Altcoin -->
+            <div id="button_2" class="tabcontent py-12">
+                <div class="flex">
+                    <div class="flex bg_374151 rounded-lg py-2 px-2"><img class="px-2" src="/images/credit-card.png" alt=""><span class="px-2">0.0000121</span>BTC</div>
+                    <div class="flex bg_374151 rounded-lg py-2 px-2 mx-6"><span class="px-2">20</span><img class="px-2" src="/images/chevron-right.png" alt=""> </div>
+                    <div class="flex bg_374151 rounded-lg py-2 px-2">Total <span class="px-2">0</span><img src="/images/chevron-left.png" alt=""><span class="px-4">1</span><img src="/images/chevron-right.png" alt=""> </div>
+                </div>
+                <table class="text-white w-full my-12 fz-20 ">
+                    <tr class="text-left fz-26 medium">
+                        <th class="w-16-9-pt">Time</th>
+                        <th class="w-33-9-pt">Amount</th>
+                        <th class="w-33-9-pt">State</th>
+                        <th class="w-16-9-pt pl-28">Transactions</th>
+                    </tr>
+                    <tr class="regular">
+                        <td>13:15:20</td>
+                        <td>3.00000000</td>
+                        <td>3.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>13:15:20</td>
+                        <td>3.00000000</td>
+                        <td>3.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>13:15:20</td>
+                        <td>3.00000000</td>
+                        <td>3.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>13:15:20</td>
+                        <td>3.00000000</td>
+                        <td>3.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>13:15:20</td>
+                        <td>3.00000000</td>
+                        <td>3.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>13:15:20</td>
+                        <td>3.00000000</td>
+                        <td>3.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>13:15:20</td>
+                        <td>3.00000000</td>
+                        <td>3.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>13:15:20</td>
+                        <td>3.00000000</td>
+                        <td>3.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>13:15:20</td>
+                        <td>3.00000000</td>
+                        <td>3.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- end-Altcoin -->
+            <!-- Withdraw -->
+            <div id="button_3" class="tabcontent py-12">
+                <div class="flex">
+                    <div class="flex bg_374151 rounded-lg py-2 px-2"><img class="px-2" src="/images/credit-card.png" alt=""><span class="px-2">0.0000121</span>BTC</div>
+                    <div class="flex bg_374151 rounded-lg py-2 px-2 mx-6"><span class="px-2">20</span><img class="px-2" src="/images/chevron-right.png" alt=""> </div>
+                    <div class="flex bg_374151 rounded-lg py-2 px-2">Total <span class="px-2">0</span><img src="/images/chevron-left.png" alt=""><span class="px-4">1</span><img src="/images/chevron-right.png" alt=""> </div>
+                </div>
+                <table class="text-white w-full my-12 fz-20 ">
+                    <tr class="text-left fz-26 medium">
+                        <th class="w-16-9-pt">Time</th>
+                        <th class="w-33-9-pt">Amount</th>
+                        <th class="w-33-9-pt">State</th>
+                        <th class="w-16-9-pt pl-28">Transactions</th>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- end-Withdraw -->
+            <!-- Bill -->
+            <div id="button_4" class="tabcontent py-12">
+                <div class="flex">
+                    <div class="flex w-4/5">
+                        <div class="flex bg_374151 rounded-full py-2 px-2"><img class="px-2" src="/images/credit-card.png" alt=""><span class="px-2">0.0000121</span>BTC</div>
+                        <div class="flex bg_374151 rounded-full py-2 px-2 mx-6"><span class="px-2">20</span><img class="px-2" src="/images/chevron-right.png" alt=""> </div>
+                        <div class="flex bg_374151 rounded-full py-2 px-2">Total <span class="px-2">0</span><img src="/images/chevron-left.png" alt=""><span class="px-4">1</span><img src="/images/chevron-right.png" alt=""> </div>
+                    </div>
+                    <div class="flex w-1/5">
+                        <div class="flex bg_374151 rounded-full py-2 px-2"><img src="/images/calendar.png" alt=""><span>11</span>/<span>5</span>/<span>2020</span>-<span>20</span>/<span>5</span>/<span>2020</span></div>
+                    </div>
+                </div>
+                <table class="text-white w-full my-12 fz-20 ">
+                    <tr class="text-left fz-26 medium">
+                        <th class="w-16-9-pt">Time</th>
+                        <th class="w-33-9-pt">Amount</th>
+                        <th class="w-33-9-pt">State</th>
+                        <th class="w-16-9-pt pl-28">Transactions</th>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                    <tr class="regular">
+                        <td>15:15:20</td>
+                        <td>1.00000000</td>
+                        <td>1.00000000</td>
+                        <td class="cl-22C55E flex float-right"><img src="/images/trending-up.png" alt="">2.00000000</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- end-Bill -->
+        </div>
+        
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
