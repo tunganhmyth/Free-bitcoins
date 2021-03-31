@@ -98,10 +98,17 @@
 .w-84-96 {
     width: 84.9609375%;
 }
+.w-74-5111-pt {
+    width: 74.51171875%;
+}
+.w-25-4888-pt {
+    width: 25.48828125%;
+}
 .m-ct {
     margin-left: auto;
     margin-right: auto;
 }
+
 .m-ct-bl {
     display: block;
     margin-left: auto;
@@ -264,4 +271,8 @@
     height: 25px;
     background: #4caf50;
     cursor: pointer;
+}
+.click_game:hover {
+    border-radius: 20px;
+    background-color: #3b82f6;
 }
