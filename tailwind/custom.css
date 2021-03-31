@@ -265,6 +265,7 @@
     background: #4caf50;
     cursor: pointer;
 }
-.abbbb{
-    vertical-align:middle;
+
+.aac{
+    display: flex;
 }
