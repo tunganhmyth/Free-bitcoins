@@ -141,6 +141,9 @@
 .fz-30 {
     font-size: 30px;
 }
+.fz-32 {
+    font-size: 32px;
+}
 .fz-60 {
     font-size: 60px;
 }
@@ -191,6 +194,9 @@
 }
 .cl_22C55E {
     color: #22c55e;
+}
+.bg_22C55E {
+    background-color: #22c55e;
 }
 .mr-left-30px {
     margin-left: 30px;
