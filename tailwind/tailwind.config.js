@@ -27,6 +27,11 @@ module.exports = {
       'large': '12px',
       'cssz25': '25px',
       'cssz40': '40px',
+      'cssz20': '20px',
+      'cssz72': '72px',
+      'cssz16': '16px',
+      'cssz15': '15px',
+      'cssz10': '10px'
     }
   }
 }
